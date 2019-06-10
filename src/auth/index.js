@@ -1,5 +1,6 @@
 
 export const signup = user => {
+    
     return fetch("http://localhost:2345/api/signup", {
         method: "POST",
         headers: {
